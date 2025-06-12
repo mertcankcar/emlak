@@ -1,0 +1,22 @@
+[01-Apr-2025 22:26:16 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bakbiico/public_html/login.php on line 2
+[01-Apr-2025 22:26:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bakbiico/public_html/login.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bakbiico/public_html/login.php on line 2
+[01-Apr-2025 22:38:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bakbiico_bakbiiemlak.users' doesn't exist in /home/bakbiico/public_html/register.php:26
+Stack trace:
+#0 /home/bakbiico/public_html/register.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/bakbiico/public_html/register.php on line 26
+[02-Apr-2025 21:25:56 UTC] PHP Warning:  Undefined array key "phone" in /home/bakbiico/public_html/edit_profile.php on line 112
+[02-Apr-2025 21:25:56 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/bakbiico/public_html/edit_profile.php on line 112
+[02-Apr-2025 21:33:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.property_type' in 'WHERE' in /home/bakbiico/public_html/index.php:45
+Stack trace:
+#0 /home/bakbiico/public_html/index.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/bakbiico/public_html/index.php on line 45
+[02-Apr-2025 21:45:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.location' in 'WHERE' in /home/bakbiico/public_html/index.php:45
+Stack trace:
+#0 /home/bakbiico/public_html/index.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/bakbiico/public_html/index.php on line 45
